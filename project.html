@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Final Project | IDS 705</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Google fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700,400,300' rel='stylesheet' type='text/css'>
+
+  <!-- Google Analytics -->
+  <script>
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<div id="header">
+
+  <a href="index.html">
+    <h1>IDS 705: Principles of Machine Learning</h1>
+  </a>
+  <div class='text-center'>
+    <h4>Duke University</h4>
+    <h4>Spring 2022</h4>
+  </div>
+
+  <div style="clear:both;"></div>
+</div>
+
+<div class="container sec">
+  
+  
+  <h1>Final Project</h1>
+  <h2>Summary and Goals</h2>
+    <p>Machine learning tools are not an end in themselves, but yield value when making predictions, quantifying and describing phenomena in the world around us, and in all these ways and more helping us to make decisions that would otherwise be difficult or impossible. For this final project, you will work in teams to (1) identify a problem to solve or a question to answer, (2) apply machine learning techniques to conduct experiments to address the issues identified in (1), (3) rigorously evaluate the performance of your approach, and (4) clearly communicate your findings to a wide audience. The deliverables for this project are a <a href="#proposal">project proposal</a>, <a href="#finalreport">final written report</a>, a <a href="#video">presentation</a> (in the form of a video), a <a href="#github">github repository</a> for your project, and a <a href="#peerevaluation">peer evaluation</a>. During our final class meeting we will have a project video showcase and competition.</p>
+
+  <h2>Contents</h2>
+  <p><b>
+  <a href="#learningobjectives">Learning objectives</a><br>
+  <a href="#proposal">Proposal</a><br>
+  <a href="#finalreport">Final Report</a><br>
+  <a href="#video">Video</a><br>
+  <a href="#github">Github Repository</a><br>
+  <a href="#peerevaluation">Peer Evaluation</a><br>
+  <a href="#evaluation">Evaluation & Grading</a><br>
+  <a href="#ideas">Ideas for datasets</a><br>
+  <a href="#faq">Frequently Asked Questions</a>
+  </b>
+  </p>
+</div>
+
+<div id="learningobjectives" class="sechighlight">
+  <div class="container sec">
+
+    <h2>Learning Objectives</h2>
+    <p>This project is an opportunity to identify and deeply explore a question or problem of your choosing, using machine learning tools and push yourself and your team to develop innovative applications of those tools. The objectives of this project are to... 
+      <ol>
+        <li>Develop deeper competency in applying machine learning methods in practical applications</li>
+        <li>Increase your experience with collaborative data science workflows</li>
+        <li>Expand your data science portfolio</li>
+      </ol>
+      This project is an opportunity to use what you've learned throughout this course and apply the paradigms, algorithms, evaluation tools, and interpretation techniques discussed to a meaningful problem with you and your team guiding the project development. Second, data science often occurs in a team setting, so this project gives you experience working on a team and developing collaborative workflows you can speak to on your next interview. Third, this is meant to serve as an entry into your professional data science portfolio to help ready you for career opportunities ahead.
+    </p>
+  </div>
+</div>
+
+<div id="proposal" class="container sec">
+  <h2>Proposal</h2>
+
+  <p>Your team will submit a short project proposal. Your project proposal will be up to 3 pages and will include the following:
+
+  <ol>
+    <li>Title for the project, assigned team number, and the names of each team member</li>
+    <li><b>Motivation</b>. What is the problem you're trying to solve or question you're trying to answer? Why is this interesting or worth pursuing?</li>
+    <li><b>Data</b>. Which dataset(s) do you plan to use for this project? (please include links / citations)</li>
+    <li><b>Methods</b> What is your proposed machine learning approach and how are you planning to apply them or improve on them?</li>
+    <li><b>Experiments</b> What experiments are you planning to run and how to they relate to your goals? How will you evaluate the outcomes? What baselines will you compare against or what will be your point of reference for evaluation of the experiments?</li>
+    <li><b>Roles</b>. Describe the specific roles and responsibilities each team member be taking on for this project.</li>
+    <li><b>References</b>Include a list of references that you have already read or plan to read to further your knowledge of this problem. See <a href="#faq">FAQs</a> for guidance</li>
+  </ol>
+    
+  <p>If you are looking for ideas about datasets, etc., please see the <a href="#ideas">Ideas section</a> below. Please stop by office hours if you would like to discuss specific project ideas or for any other help in selecting your project idea.</p>
+
+</div>
+
+<div id="finalreport" class="container sec">
+  <h2>Final Report</h2>
+
+  <p>The final project report that you submit will consist of two parts: (1) a written project report and (2) a 5 minute video communicating the key takeaways from your project.</p>
+
+  <ol>
+    <li><b>Header</b>. Include your title, team number, and the names of each team member</li>
+    <li><b>Abstract</b>. [150 words maximum] This should be the one paragraph that captures the significance of what you did and why you did it - this should be a summary of the work and your outcomes in brief.</li>
+    <li><b>Introduction and Motivation</b>. Provide a description of the problem and the value in finding a solution, motivate your reader as to why he/she should care about your problem or question.</li>
+    <li><b>Background</b>. This section should cite work that has been previously addressed that relates to your project, and the key takeaways of those studies/projects.</li>
+    <li><b>Data</b>. Describe and visualize your data in the context of the problem you are working on.</li>
+    <li><b>Methods and Experiments</b>. Present your machine learning experiments (for supervised learning, a description of any preprocessing, feature extraction, classification/regression techniques, experimental designs and evaluation criteria) and why you made each of the choices you did to achieve your goal. Cite relevant literature to support your claims and any work that is not your own. Also include a flow chart of your methodology to the reader can easily conceptualize your solution. The flow chart of the overall experimental design should clearly articulate your process (<a href="https://www.nature.com/articles/sdata2016106/figures/1">example</a>). Additionally, for multiple experimental conditions or applications, they should each be represented in your flowchart. Describe your approach to measuring generalization performance, what metric(s) you used and why.</li>
+    <li><b>Results</b>. Include a complete performance assessment that includes your validation approach (cross validation, train/validate/test split, etc.) and the key metrics of performance for the problem (ROC curves, PR curves, confusion matrices if applicable, etc.). You should also compare your outcomes to at least one baseline model to act as a point of reference for interpreting the results of your work as well as chance performance (i.e. random guessing for classification, guessing the mean/median for regression). This section should be supported with visualizations including examples where your method worked well and where it failed, when possible, and hypotheses supported by evidence as to why in each case.</li>
+    <li><b>Conclusions</b>. It is critical to have a strong ending and not just let the energy fizzle out of the report. Many readers, if pressed for time, will simply read your abstract and your conclusions. In fact, you may want to start by writing your conclusions. Very succinctly recap the problem you were studying and what was your approach to the solution. Focus on explaining the key takeaways from your work - these should not be merely a set of bullet points, but fleshed out conclusions. As you're writing your conclusions think about if the reader took nothing else away from reading your report, what would you want them to know most? Did you identify one particular approach that worked well? Was there a challenge that you faced that opens the door to working on solving a new problem? What avenues of research would you pursue next?</li>
+    <li><b>Roles</b>. Since this is a team project, we want to know what your specific contribution was to this project. Provide detail on your individual role and how it contributed to the competition. Each team member should clearly articulate an individual role.</li>
+    <li><b>References</b> [no word limits]. An alphabetical list of references cited in this work. A minimum of 15 are required. Consider using the Zotero citation manager for collecting and compiling your references. These should primarily be research papers and technical reports.</li>
+  </ol>
+  <p>You will submit your report via Gradescope as a PDF file and in addition to following the above criteria should also meet the following formatting requirements</p>
+  <ul>
+    <li><b>Word limit</b>. Your report should be no longer than 2,500 words, not including references and figure captions</li>
+    <li><b>Figures</b>. Figures are highly encouraged, and should each be referenced in the text (such that every figure has a clear point to the story that you tell). Every figure should have a caption, figure number, axis labels (with units if applicable), and legend, if applicable. If you use any figures that are not your own, they should be cited as well. No figure should be superfluous - every figure should be referenced in the text. </li>
+    <li><b>References</b>. While the specific citation format is not critical, it should be consistent and follow a known model (MLA, IEEE, Chicago, APA, etc.).</li>
+
+  </ul>
+
+  <!-- <h3>Examples to emulate for project webpages:</h3>
+  <ul>
+    <li><a href="https://distill.pub/">Distll.pub</a> In my opinion, this is the BEST online interactive machine learning journal.</li>
+    <li><a href="https://devseed.com/ml-grid-docs/">Identifying transmission lines in satellite imagery assisted by machine learning</a>Excellent short project overview that provides and example of how web formats can be created </li>
+    <li><a href="http://people.duke.edu/~kjb17/gbdx/">Automatically identifying solar PV arrays in satellite imagery</a></li>
+    <li><a href="https://dataplus-2020.github.io/">Synthetic data generation for improving computer vision models</a></li>
+  </ul> -->
+
+</div>
+<div id="video" class="container sec">
+  <h2>Video</h2>
+
+  <p>You will also submit an up-to-4 minute video summarizing your project. This video should be visually compelling and should not miss the “forest for the trees” – don’t get lost in technical details. Imagine your aunt and uncle watching this video – would they know what is going on? Would they find it approachable and engaging? For inspiration for what makes a good explanatory video, watch videos from the following series:</p>
+
+  <ul>
+    <li><a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg">Two Minute Papers</a> by Károly Zsolnai-Fehér. Concise 1-4 minute summaries of cutting edge research papers.</li>
+    <li><a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">3Blue1Brown</a> by Grant Sanderson. Mathematical concepts conveyed clearly, intuitively, and visually.</li>
+    <li><a href="https://www.youtube.com/channel/UConVfxXodg78Tzh5nNu85Ew">Welch Labs</a> by Stephen Welch. Series on machine learning, neural networks, and imaginary numbers.</li>
+  </ul>
+
+  <p>Once you're working on producing your video, ask your friends (especially those who may not be as technically inclined) for feedback. Do they think it was engaging/easy to follow? Ask them their takeaways: did they get the message you were trying to communicate? Address their feedback to help you ensure the quality of your video. You're encouraged to use the audio-visual medium to the fullest to clearly present your project.</p>
+
+  <p>You'll submit your video as either a live link (such as Youtube) or as an .mp4 file to the instructional team (please test your file to make sure it plays before submitting).</p>
+</div>
+
+<div id="github" class="container sec">
+  <h2>Github Repository</h2>
+  <p>Your github respository should (a) contain a descriptive README.md file that explains what the repo is for, and how to use the code to reproduce your work (including how to set it up to run), (b) be well commented throughout all files, (c) list all dependencies in a requirements.txt file, (d) inform the user how to get the data and includes all preprocessing code, and (e) actually runs (i.e. we can successfully test it) and does what it says</p>
+
+  <p>Also include a copy of your final report and a link to your project video from the README.md file.</p>
+
+</div>
+
+<div id="peerevaluation" class="container sec">
+  <h2>Peer Evaluation</h2>
+  <p>Since this is a team project, you will also receive feedback from your teammates and reflect on your own performance in a self-evaluation. You will be evaluating your fellow team members on the following criteria:</p>
+
+  <ol>
+    <li>Was dependable in attending meetings to work on the project</li>
+    <li>Did work accurately and completely</li>
+    <li>Completed work on time</li>
+    <li>Contributed positively to team discussions</li>
+    <li>Helped others when needed</li>
+    <li>Responded to communications in a timely manner</li>
+    <li>Treated other team members respectfully</li>
+    <li>Demonstrated a positive attitude about the team and its work</li>
+  </ol>
+
+  <p>This evaluation is NOT based directly on the scores that you receive in the feedback, but your grade for the peer evaluation is heavily based on the level of constructiveness of the feedback you provide. More detailed, constructive feedback to help your peers better understand their strengths and areas for growth the better. Doing so respectfully and compassionately is also desirable. Your peer will receive anonymized versions of the feedback that you share.</p>
+
+</div>
+
+<div id="evaluation" class="container sec">
+  <h2>Evaluation & Grading</h2>
+
+  <p>The expectation of this project is to apply the techniques that you learned from this course to your application. Following the methodologies we discussed carefully, exercising rigor in ensuring the correct interpretation of your results, and clearly and accurately communicating those results is what is key to success.</p>
+  <p>The grading for this project will be assigned as follows:</p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Component</th>
+        <th scope="col">Weight</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Team Proposal</th>
+        <td>5%</td>
+        <td>The two criteria that will be assessed are whether all of the requested content was included and whether or not the proposal seems well thought out and includes a reasonable plan. If these criteria are met, you will receive full credit. You may receive feedback on the proposal suggesting adjustments to your project plan as feedback. Early discussions on that feedback with the instructor and TA's are encouraged.</td>
+        
+      </tr>
+      <tr>
+        <th scope="row">Final Report</th>
+        <td>60%</td>
+        <td>See the guide above on the content of the final report.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Video Presentation</th>
+        <td>20%</td>
+        <td>The goal of the video is to quickly present your motivation, methodology, experimental design, and findings to a general audience. The video should tell a clear story and should not miss the “forest for the trees” – don’t get lost in technical details. Is the content clear, accurate, and engaging?</td>
+      </tr>
+      <tr>
+        <th scope="row">Github Repository</th>
+        <td>5%</td>
+        <td>Your github repo will be evaluated on whether it (a) contains a descriptive README.md file that explains what the repo is for, and how to use the code to reproduce your work (including how to set it up to run), (b) is well commented throughout all files, (c) lists all dependencies in a requirements.txt file, (d) informs the user how to get the data and includes all preprocessing code, and (e) it actually runs (i.e. we can successfully test it) and does what it says</td>
+      </tr>
+      <tr>
+        <th scope="row">Peer Evaluation</th>
+        <td>10%</td>
+        <td>The quality of your feedback to your teammates and your seriousness of self-reflection will be weighted heavily.</td>
+      </tr>
+      <tr>
+        <th scope="row">Total</th>
+        <td><b>100%</b></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+
+<div id="ideas" class="container sec">
+  <!-- <h2>Sample project ideas</h2>
+  <p><b>Example Project Idea #1: How well buildings be detected in satellite imagery across diverse geographies?</b> Satellite imagery is enabling us to create functional maps of the world based on the content in the images. Automating building identification could help map global population and analyze global population growth in real-time. However, different parts of the world look different: forests, deserts, plains, etc. Each location looks differently. This may impact the ability to train an algorithm on one location and test on another location. This project uses the INRIA building dataset to investigate the impact of different geographies on the performance of building detection and segmentation techniques using satellite imagery.</p>
+
+  <p><b>Example Project Idea #2: How well buildings be detected in satellite imagery across diverse geographies?</b> Satellite imagery is enabling us to create functional maps of the world based on the content in the images. Automating building identification could help map global population and analyze global population growth in real-time. However, different parts of the world look different: forests, deserts, plains, etc. Each location looks differently. This may impact the ability to train an algorithm on one location and test on another location. This project uses the INRIA building dataset to investigate the impact of different geographies on the performance of building detection and segmentation techniques using satellite imagery.</p> -->
+  
+  <h2>Ideas</h2>
+
+  <p>As you're developing ideas for your project, explore active competitions on <a href="https://www.aicrowd.com/">AICrowd</a>, <a href="https://zindi.africa/competitions">Zindi</a>,  <a href="https://www.kaggle.com/competitions">Kaggle</a>, <a href="https://www.drivendata.org/competitions/">DrivenData</a>, and other machine learning competition pages. You can use these competitions as a starting point for a project. Additionally, you may want to be inspired by projects in the community, for example, the <a href="https://www.itu.int/en/ITU-T/AI/Pages/ai-repository.aspx">AI for Good repository</a> has a number of projects from which to draw inspiration.</p>
+
+  <p><b>What makes for an interesting dataset to explore?</b> The dataset generally needs to have enough samples, features, and labels to enable a meaningful analysis. This rules out options like the Iris, Titanic, and all other "introductory" datasets for which you can find dozens of numerous tutorials walking through the analysis. You want to be able to journey into the unknown of the data: be bold and pick a dataset and application that excites you!</p> 
+
+  <p><b>Potential sources for datasets:</b></p>
+  <ul>
+    <li><a href="https://www.datasetlist.com/">Machine learning datasets</a> <b>(start your search here)</b></li>
+    <li><a href="https://registry.opendata.aws/">Amazon AWS Open Datasets</a></li>
+    <li><a href="https://toolbox.google.com/datasetsearch">Google Dataset Search</a></li>
+    <li><a href=" https://msropendata.com/">Microsoft Research Open Data</a></li>
+    <li><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome public datasets</a></li>
+    <li><a href="https://github.com/openimages/dataset">Google's Open Images Dataset</a></li>
+    <li><a href="https://research.google.com/youtube8m/">Youtube labeled video dataset</a></li>
+    <li><a href="http://metamind.io/research/the-wikitext-long-term-dependency-language-modeling-dataset/">Wikipedia Text Dataset</a></li>
+    <li><a href=" https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research">Wikipedia list of machine learning datasets</a></li>
+    <li><a href="https://www.kaggle.com/datasets">Kaggle Datasets</a></li>
+    <li><a href=" https://research.google.com/youtube8m/">Youtube labeled video dataset</a></li>
+    <li><a href="https://github.com/chrieke/awesome-satellite-imagery-datasets"></a>Satellite Imagery Datasets</li>
+  </ul>
+</div>
+
+<div id="faq" class="container sec">
+  <h2>Frequently Asked Questions</h2>
+
+  <h3>Does our project application need to be novel?</h3>
+  <p>No. While novel ideas are certainly welcome and encouraged, your project does not need to something that has never been done before. In fact, reproducing a past research paper (from a reputable journal) or exceptional projects can be an excellent way to develop your skills and learn good experimental practices along the way. However, you should not simply take an existing repository, hit "run" and call that your project, of course, you will need to make it your own - ask some additional questions, try to modify the methods, etc.</p>
+
+</div>
+
+<div class="sechighlight">
+<div id="footer">
+  <div id="footermsg">Website design inspired by the <a href="http://cs231n.stanford.edu/">Stanford CS231 course page</a></div>
+</div>
+</div>
+
+<!-- jQuery and Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

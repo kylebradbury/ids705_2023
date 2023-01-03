@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IDS 705: Principles of Machine Learning</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Google fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700, 400,300' rel='stylesheet' type='text/css'>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'> -->
+
+  <!-- Google Analytics -->
+  <script>
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<div id="header">
+  <a href="index.html">
+    <h1>IDS 705: Principles of Machine Learning</h1>
+  </a>
+  <div class='text-center'>
+    <h4>Duke University</h4>
+    <h4>Spring 2022</h4>
+    <h3>Previous Years: <a href="https://kylebradbury.github.io/ids705_sp2021/">2021</a>, <a href="https://kylebradbury.github.io/ids705_sp2020/">2020</a>, <a href="https://kylebradbury.github.io/ids705_sp2019/">2019</a>, <a href="https://kylebradbury.github.io/ece590/">2018</a></h3>
+  </div>
+  <div style="clear:both;"></div>
+
+</div>
+
+<div class="sechighlight">
+<div class="container sec">
+  <h2>Course Overview</h2>
+
+  <div id="coursedesc">In almost every field, there is a need to draw inference from or make decisions based on data. The goal of this course is to provide an introduction to machine learning that is approachable to diverse disciplines and empowers students to become proficient in the foundational concepts and tools. You will learn to (a) structure a machine learning problems and determine which algorithmic tools are appropriate, (b) evaluate the performance of your solution using field-appropriate metrics and practices, and (c) accurately interpret your model output and communicate your results to interdisciplinary audiences. This course is a fast-paced, applied introduction to machine learning that through extensive practice with foundational tools, helps you to develop strengths in your knowledge of foundational machine learning concepts and provides practical experience with those tools to prepare you for practice or future study.
+  </div>
+</div>
+</div>
+
+<div class="container sec">
+<div class="row">
+  <div class="col-md-6">
+    <h2>Instructor</h2>
+    <div class="instructor">
+      <a href="http://www.kylebradbury.org/">
+      <div class="instructorphoto"><img class="img-hover" src="img/kylebradbury.jpeg"></div>
+      <div>Kyle Bradbury</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <h2>Teaching Assistants</h2>
+    
+    <div class="instructor">
+      <a href="https://www.linkedin.com/in/sarwari-das/">
+        <div class="instructorphoto"><img class="img-hover" src="img/sarwari.jpg"></div>
+        <div>Sarwari Das</div>
+      </a>
+    </div>
+
+    <div class="instructor">
+      <a href="https://www.linkedin.com/in/razalamb1/">
+        <div class="instructorphoto"><img class="img-hover" src="img/raza.jpeg"></div>
+        <div>Raza Lamb</div>
+      </a>
+    </div>
+
+    <div class="instructor">
+      <a href="https://www.linkedin.com/in/deekshitasaikia/">
+        <div class="instructorphoto"><img class="img-hover" src="img/deekshita.jpg"></div>
+        <div>Deekshita Saikia</div>
+      </a>
+    </div>
+    
+
+  </div>
+</div>
+</div>
+
+<div class="sechighlight">
+<div style="text-align:center; padding:40px 0px 40px 0px;">
+  <a class="btn btn-primary btn-lg" href="syllabus.html" style="margin-right:50px" role="button">Schedule</a>
+
+  <!-- <a class="btn btn-primary btn-lg" href="project.html" style="margin-right:50px" role="button">Final Project</a> -->
+
+  <a class="btn btn-secondary btn-lg" href="http://www.kylebradbury.org/datascience.html" target="_blank" style="margin-right:50px" role="button">Data Science Resources</a>
+  
+</div>
+</div>
+
+<div class="container sec">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Class Time and Location</h2>
+      <b>Meeting times:</b><br>
+      Tuesday and Thursdays 10:15am - 11:30am<br><br>
+      <b>Meeting location:</b><br>
+      Gross Hall 270</b>
+      <br><br>
+    </div>
+    <div class="col-md-4">
+      <h2>Office Hours and Email</h2>
+      <b>Kyle Bradbury</b> (<a href="mailto:kyle.bradbury@duke.edu">kyle.bradbury@duke.edu</a>)<br>
+      Office Hours: <a href="https://edstem.org/us/courses/32544/discussion/">See Ed</a><br>
+      <b>Sarwari Das</b> (<a href="mailto:sarwari.das@duke.edu">sarwari.das@duke.edu</a>)<br>
+      Office Hours: <a href="https://edstem.org/us/courses/32544/discussion/">See Ed</a><br>
+      <b>Raza Lamb</b> (<a href="mailto:raza.lamb@duke.edu">raza.lamb@duke.edu</a>)<br>
+      Office Hours: <a href="https://edstem.org/us/courses/32544/discussion/">See Ed</a><br>
+      <b>Deekshita Saikia</b> (<a href="mailto:deekshita.saikia@duke.edu">deekshita.saikia@duke.edu</a>)<br>
+      
+      <br>
+    </div>
+    <div class="col-md-4">
+      <h2>Navigating Class Resources</h2>
+      <ul>
+        <li><b><a href="https://edstem.org/us/courses/32544/discussion/">Ed Discussions</a>:</b> Q&A on course content: assignments, quizzes, grades</li>
+        <li><b><a href="https://edstem.org/us/courses/32544/discussion/">Ed Discussions</a>:</b> Announcements and course communications</li>
+        <li><b><a href="https://www.gradescope.com/">Gradescope</a>:</b> Assignment & project submission & feedback</li>
+        <li><b><a href="https://kylebradbury.github.io/ids705/syllabus.html">Course Schedule</a>: </b>Schedule & assignments</li>
+      </ul>
+      <br>
+    </div>
+  </div>
+</div>
+
+<div class="container sec">
+  <div class="row">
+
+    <div class="col-md-4">
+      <h2>Assignments & Grading</h2>
+      <b>Assignments, projects, & quizzes:</b>
+      Assignments and projects details are posted on the <a href="syllabus.html">course syllabus</a>. For expectations and instructions on the assignments, see the <a href='https://github.com/kylebradbury/ids705/blob/master/assignments/_Assignment%20Instructions.ipynb'>Assignment Instructions</a>. Quizzes are found on Sakai under "Tests & Quizzes".
+      <br><br>
+      <b>Grading:</b>
+      <ul>
+        <li>50% Assignments (6, each worth ~8.3%)</li>
+        <li>20% Quizzes (~23, each worth <1%)</li>
+        <li>30% Final Project</li>
+      </ul>
+      <br>
+    </div>
+    <div class="col-md-4">
+      <h2>Textbook and References</h2>
+      <b>Textbooks</b> (free versions available online):<br>
+      <b><a href="https://statlearning.com/">An Introduction to Statistical Learning</a></b> by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, 2013.<br>
+      <b><a href="https://www.microsoft.com/en-us/research/people/cmbishop/#!prml-book">Pattern Recognition and Machine Learning</a></b> by Christopher Bishop, 2006.
+      <br>
+      <b><a href="https://www.deeplearningbook.org/">Deep Learning</a></b> by Ian Goodfellow, Yoshua Bengio, and Aaron Courville, 2016.<br>
+      <b><a href="http://incompleteideas.net/book/the-book.html">Reinforcement Learning: An Introduction</a></b>, by Richard Sutton and Andrew Barto, 2018.<br><br>
+    </div>
+    <div class="col-md-4">
+      <h2>Have questions?</h2>
+      We welcome your questions about the course including lectures, assignments, projects, and logistics on <b><a href="https://edstem.org/us/courses/16087/discussion/">Ed Discussions</a></b>. Email the TA or instructor about questions that specifically pertain to you as an individual (or send a private message on Ed Discussions). Ask questions early - questions asked close to a deadline (e.g. less than a day before an assignment is due) are not guaranteed to get a response - please plan accordingly.
+      <br>
+    </div>
+  </div>
+</div>
+
+<div class="sechighlight">
+<div class="container sec">
+  <h2>Prerequisites</h2>
+  This course moves quickly, so having a firm grasp on prerequisites is important. The prerequisites are as follows:
+  <ul>
+    <li><b>Programming:</b> Fundamentals of Python programming.</li>
+    <li><b>Mathematics:</b> Calculus and linear algebra. </li>
+    <li><b>Statistics:</b> Introductory probability and statistics.</li>
+  </ul>
+</div>
+</div>
+
+<div class="container sec">
+  <h2>Detailed description</h2>
+  <p>Machine learning is a collection of useful tools for understanding and making decisions based on data and past experience; it is not a hammer to be applied to every nail, but rather a precision tool to be used when needed. This course will begin with exploring the purpose of machine learning told through a discussion of the types of problems that machine learning can answer: describing, predicting, and strategizing based on data and the tools at our disposal to address these challenges: supervised learning including classification and regression; unsupervised learning including clustering and density estimation; and reinforcement learning. There will be a strong focus on how to formulate a machine learning problem. Central to that formulation will be developing an understanding of how to preprocess data for analysis (e.g. feature extraction/dimensionality reduction, training/validation data sampling), model selection, and performance evaluation with cross validation. The final topic of this course will be a brief overview of state-of-the-art machine learning techniques that are emerging in the field.</p>
+  <p>Throughout this course, the focus will be on applying algorithms rather than diving deeply into theory. You will be asked to consider the practical issues of machine learning problem solving: challenges of applying machine learning code packages, striving for parsimony (simplicity of models) and interpretability, and ensuring model assumptions are valid for a given problem and dataset. This course will also stress the importance of team-based collaboration, the value of producing fully reproducible and validated results, and tools to help with both such as version control and code repositories.</p>
+
+  <p><b>Communicating your results.</b> Data science solutions are only as impactful as the communicator who shares them. Throughout this course you will be working with Jupyter Notebooks. A Jupyter notebook is an interactive writing and coding tool that allow you to combine formatted text, code, output from code (e.g. plots), and mathematical equations all in one location. Demonstrating competency in data science means (a) exhibiting a working knowledge of technical concepts including programming, statistics, and mathematics and (b) being able to clearly communicate the problem you were trying to solve or question you were trying to answer, why it matters, and how well your analysis worked. You will have opportunities to practice these skills throughout this course.</p>
+</div>
+
+<div class="sechighlight">
+  <div class="container sec">
+    <h2>Software and Hardware Tools</h2>
+    <p>
+      <b>Programming language: </b>We will use Python 3.x. The <a href='https://www.anaconda.com/download/'>Anaconda distribution</a> is recommended and comes with the most common packages. Python continues to be an one of the <a href="https://www.tiobe.com/tiobe-index/">top programming languages</a> and the rich packages in the language make it an excellent choice for machine learning. In particular the Python ecosystem of packages makes it a natural choice for ML including core numerical programming and plotting libraries like numpy, scipy, matplotlib, and pandas as well as excellent packages for machine learning algorithm development and statistical modeling including TensorFlow, Pytorch, Keras, Scikit-Learn.<br>
+      <b>Development environments:</b> <a href="https://jupyter.org/">Jupyter lab or Jupyter notebook</a> will be appropriate for most class assignments. We highly encourage you to use <a href="https://code.visualstudio.com/download">Visual Studio Code</a> or <a href="https://www.spyder-ide.org/">Spyder</a> are for larger projects, in particular due to the debugging capabilities. There are many configurations that may work for you, but consider branching out to some of these other tools as well.<br>
+      <b>Graphics processing units (GPUs):</b> GPUs are the workhorses of many modern machine learning algorithms, especially any that involve neural network-based architectures. There will be a small number of assignments that will require additional computation from that of GPUs. For these, we will use <a href="https://colab.research.google.com/">Google Colab</a>, which is a free notebook environment that enables access to cloud resources including GPUs. For longer sessions before timeouts, greater RAM, and better GPUs you can optionally upgrade to <a href="https://colab.research.google.com/signup">Colab Pro</a>.
+  </div>
+  </div>
+
+<div class="container sec">
+  <h2>Course Policies</h2>
+  <p><b>Academic dishonesty.</b> Adherence to the Duke Community Standard is expected. To uphold the Duke Community Standard:<br>
+  I will not lie, cheat, or steal in my academic endeavors;<br>
+  I will conduct myself honorably in all my endeavors; and<br>
+  I will act if the Standard is compromised<br>
+  Anyone found in violation of the Standard will be reported to the Office of Student Conduct.</p>
+  <p><b>Accommodations.</b> If you need special accommodations due to physical or learning disabilities, medical needs, religious practices, or other reasons, please inform us as soon as possible so we can work to accommodate those needs.</p>
+  <p><b>Late Submissions.</b> Assignments and projects are due in class by the start of class on the date posted. Late deliverables will ONLY be accepted at the discretion of the instructor. Any late assignments will result in a reduction of 5 points off the grade per day late. Course projects will not be accepted after the deadline. Quizzes will not be accepted after the deadline. While quizzes cannot be made up since the answers are discussed, the lowest two quizzes will be dropped at the end of the semester for each student to accommodate necessary absences and days when we're off our game. Please reach out to the TA's or instructor as early as possible to request any special accommodations.</p>
+  <p><b>Collaboration.</b> There will be three modes of collaboration ranging from fully-collaborative group projects, to fully-independent work. The three modes are as follows, and will be indicated throughout the course:</p>
+  <ul>
+  <li><b>Mode 1: Team-based Assignment</b>. Collaboration is expected with every member of the team contributing to a single deliverable. <b>Applies to the Project</b></li>
+  <li><b>Mode 2: Individual Assignment – Collaboration Permitted</b>. Students hand in individual work, but they may work with others if they provide citations of the help they received, such as a list of people who assisted/collaborated with them to produce the final product. Duplication or copying is not permissible, even in part. <b>Applies to Assignments</b></li>
+  <li><b>Mode 3: Individual Assignment – No Collaboration Permitted</b>. Students hand in individual work that is completed entirely independent of any discussion or help from other students, teaching assistants, instructors, websites, or outside sources. <b>Applies to Quizzes</b></li>
+  </ul>
+  <p><b>Accessibility.</b>In addition to accessibility issues experienced during the typical academic year, I recognize that remote learning may present additional challenges. Students may be experiencing unreliable wi-fi, lack of access to quiet study spaces, varied time-zones, or additional responsibilities while studying at home. If you are experiencing these or other difficulties, please contact me to discuss possible accommodations.  </p>
+  <p><b>Rules for video recording course content</b>. Student recording recordings of lectures must be permitted by the instructor and shall be for private study only. Such recordings shall not be distributed to anyone else without authorization by the instructor whose lecture has been recorded. However, the instructor may arrange through the Office of Information Technology to make recorded lectures available to students enrolled in the class on such terms and conditions as he or she prescribes. Redistribution of recorded lectures is prohibited. Unauthorized distribution is a cause for disciplinary action by the Judicial Board. The full policy on recoding of lectures falls under the Duke University Policy on Intellectual Property Rights, available <a href="https://provost.duke.edu/sites/default/files/FHB_App_P.pdf">here</a>.</p>
+
+</div>
+
+<div class="sechighlight">
+  <div class="container sec">
+    <h2>Course Pedagogy</h2>
+    <b>Tenet #1: Good learning is active learning.</b> Everyone who was good at something was once bad at it. Learning comes from practice. No amount of reading or video/lecture watching alone will help you to become good without actively engaging with the material through practice. That is why this entire course is focused on supporting you to actively apply machine learning techniques through the assignments, quizzes, and project. Concept described in <a href="https://www.amazon.com/Make-Stick-Science-Successful-Learning/dp/0674729013">Make It Stick</a>.
+    <b>Tenet #2: Desirable difficulty leads to meaningful learning.</b> Learning is most effective when there's a degree of struggle with the material. "Requiring students to organize new information and to work harder in the initial learning period can lead to greater and deeper learning.  Although this struggle, dubbed a desirable difficulty...may at first be frustrating to learner and teacher alike, ultimately it improves long-term retention" (Excerpt from <a href="https://tomprof.stanford.edu/posting/1419">A Concise Guide to Improving Student Learning: Six Evidence-Based Principles and How to Apply Them</a>). Desirable difficulties help you build connections between concepts and learn representations of knowledge (meta-cognition) that, like an index of a book, will increase your ability to creatively connect concepts and think more deeply about the topic. This is also described in <a href="https://www.amazon.com/Make-Stick-Science-Successful-Learning/dp/0674729013">Make It Stick</a>.
+    <br>
+    <b>Tenet #3: Read, reflect, recall is a pattern for effective learning.</b> Spaced retrieval and reflection is a key to effective learning. When we learn something, if we don't use it, the knowledge fades. However, if we return to the material, apply it, create with it, we're increasing the probability of long-term learning. This is why you will interact with each concept typically 4 times: lectures, readings, quizzes, and assignments, and at least one more time for those concepts involved in the final project. An added benefit of the frequent reflection through quizzes is that it tests your knowledge regularly, helping us to avoid the illusion of knowledge (thinking we know something, when we actually do not).
+
+</div>
+</div>
+
+
+<div class="container sec">
+  <h2>Mental Health and Wellness Resources</h2>
+  <p>If your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to you, including ones listed below. Duke encourages all students to access these resources, particularly as we navigate the transition and emotions associated with this time. Duke Student Government has worked with DukeReach and student advocates to create the Fall 2020 “Two-Click Support” Form, and Duke Reach has expanded its drop in hours as well.</p> 
+
+  <ul>
+    <li><b><a href="http://studentaffairs.duke.edu/dukereach">DukeReach</a></b> Provides comprehensive outreach services to identify and support students in managing all aspects of wellbeing. If you have concerns about a student's behavior or health visit the website for resources and assistance. </li>
+    <li><b><a href="http://bluedevilscare.duke.edu/">Counseling and Psychological Services (CAPS)</a></b> CAPS services include individual, group, and couples counseling services, health coaching, psychiatric services, and workshops and discussions.  (919) 660-1000</li>
+    <li><b><a href="http://bluedevilscare.duke.edu/">Blue Devils Care</a></b> A convenient and cost-effective way for Duke students to receive 24/7 mental health support through TalkNow. </li>
+  </ul>
+    
+  <p>Managing daily stress and self-care are also important to well-being. Duke offers several resources for students to both seek assistance on coursework and improve overall wellness, some of which are listed below. Please visit  <a href="https://studentaffairs.duke.edu/duwell/holistic-wellness">this site</a> to learn more about:</p>  
+  
+  <ul>
+    <li><b><a href="arc.duke.edu">The Academic Resource Center:</a></b> (919) 684-5917, theARC@duke.edu</li>
+    <li><b><a href="https://studentaffairs.duke.edu/duwell">DuWell:</a></b> (919) 681-8421, duwell@studentaffairs.duke.edu</li>
+    <li><b><a href="https://app.welltrack.com/">WellTrack</a></b> </li>
+  </ul>
+</div>
+
+
+<div class="sechighlight">
+<div id="footer">
+  <div id="footermsg">Website design adapted from the <a href="http://cs231n.stanford.edu/">Stanford CS231 course page</a></div>
+
+</div>
+</div>
+
+<!-- jQuery and Bootstrap -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

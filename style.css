@@ -1,0 +1,194 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+#header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.lhead {
+  font-weight: normal;
+  margin-top: 5px;
+}
+.litem {
+  margin-top: 5px;
+}
+#footer {
+  height: 100px;
+  padding-top: 10px;
+  text-align: center;
+  position: relative;
+}
+.instructorphoto img {
+  width: 120px;
+  border-radius: 120px;
+  margin-bottom: 10px;
+}
+.instructor {
+  display: inline-block;
+/*  width: 120px;*/
+  text-align: center;
+  margin-right: 20px;
+}
+.sec {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.tt {
+  color: #060;
+  display: inline-block;
+}
+
+#inputlayer {
+  width: 65px;
+}
+.layer {
+  width: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.actmap {
+  display: block;
+  border: 2px solid #FFF;
+}
+#probsdiv {
+  
+}
+.pp {
+  color: white;
+  text-align: left;
+  padding: 5px;
+  height: 32px;
+  margin: 2px;
+  background-color: rgb(85,187,85);
+  overflow: visible !important;
+}
+
+#convask {
+  position: absolute;
+  top: 360px;
+  right: 16px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#explain {
+  display: none;
+  background-color: #FF9;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.qq {
+  color: #060;
+}
+.qa {
+  font-style: italic;
+}
+.qqa {
+  margin-bottom: 20px;
+}
+.spanh {
+  font-weight: normal;
+}
+.sechighlight {
+  background-color: #edf4ff;
+  /* f7f6f1 */
+}
+#coursedesc {
+  text-align: justify;
+}
+#footermsg {
+  color: #333;
+  margin: 20px;
+}
+#classicons {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+b {
+  font-weight: 700;
+}
+.img-hover:hover {
+  opacity: 0.8;
+}
+
+.instructions em {
+  font-style: normal;
+  font-weight: 700;
+  color: #007bff;
+}
+
+
+/* Fix the table so that it is readable in smaller settings */
+@media 
+only screen and (max-width: 600px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  /*tr { border: 1px solid #ccc; }*/
+  
+  td { 
+    /* Behave  like a "row" */
+    border: none;
+    /*border-bottom: 1px solid #eee; */
+    position: relative;
+    padding-left: 50%; 
+  }
+  
+  .lecnum {
+    font-weight: bold;
+  }
+
+  td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+
+}
+
+.module {
+  font-size: 18px;
+  background: darkgray;
+  color: white;
+}
