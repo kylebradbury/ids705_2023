@@ -192,3 +192,7 @@ only screen and (max-width: 600px),
   background: darkgray;
   color: white;
 }
+
+.toc {
+  font-weight: bold;
+}
