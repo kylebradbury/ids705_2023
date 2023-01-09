@@ -196,3 +196,7 @@ only screen and (max-width: 600px),
 .toc {
   font-weight: bold;
 }
+
+.emphasis {
+  font-weight: bold;
+}
